@@ -1,4 +1,13 @@
 #!/bin/bash
+####################################################################################################################
+# Title           :spark_install.sh
+# Description     :This script was created for the IU course I535 Management, Access and Use of Big and Complext Data.
+# Author	  :Utkarsh Kumar, INFO-I 535
+# Date            :09/26/2019
+# Version         :0.1    
+# License	  :The script is distributed under the GPL 3.0 license (http://www.gnu.org/licenses/gpl-3.0.html)
+#		   You are free to run, study, share and modify this script. 
+###################################################################################################################
 
 ###################################################################################################################
 ############################################## CONFGIURATIONS #####################################################
