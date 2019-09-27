@@ -6,7 +6,7 @@
 
 ####### Configuration variables ##########
 # Username who should be the owner of spark and run spark
-USERNAME=utkumar
+USERNAME=<username>
 
 # Spark tarball url
 SPARK_TARBALL_URL="http://mirror.olnevhost.net/pub/apache/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.7.tgz"
