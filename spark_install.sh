@@ -121,7 +121,7 @@ fi
 
 # Check if java is installed or not. If not, install java using install java function.
 if type -p java >> $OUT_FILE; then
-	JAVA_VERSION=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}')
+	JAVA_VERSION=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}' | awk -F '.' '{print $1"."$2}')
 	if [[ "$JAVA_VERSION" == "1.8" ]]; then
 		out "INFO - Java version 1.8 is already installed. JAVA VERSION $JAVA_VERSION"
 		JAVA_INSTALL_FLAG=1
